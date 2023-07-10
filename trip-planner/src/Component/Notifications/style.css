@@ -1,0 +1,555 @@
+.notifications-title {
+    font-family: FarhangFaNum-ExtraBold;
+    margin-right: 20px;
+}
+
+.create-notification-icon {
+    color: #22954a;
+    font-size: 28px !important;
+    position: sticky;
+    top: 0;
+}
+
+.create-notification-icon:hover {
+    color: #5ea375;
+}
+
+.notifications-layout {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.notification-list {
+    border: 1px solid #979797;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+
+.search-div {
+    font-family: FarhangFaNum-Medium;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+}
+
+.search-icon {
+    font-size: 21px;
+    color: #757575;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+
+.search-text {
+    font-family: FarhangFaNum-Regular;
+    font-size: 15px;
+    margin-right: 5px;
+    color: #000000;
+}
+
+.search-item-grid {
+    color: #000000;
+    fontsize: 15px;
+    padding-top: 8px;
+}
+
+.search-item-text {
+    margin-right: 20px;
+}
+
+.search-item-combobox-div {
+    margin-right: 15px;
+}
+
+.search-btn {
+    font-family: FarhangFaNum-Medium;
+    background-color: #d0d7dd;
+    width: 50px;
+    height: 28px;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-top: 7px;
+    color: black;
+}
+
+.search-btn:hover {
+    background-color: #b7cbdd;
+}
+
+.notification-table-div {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 1px;
+    direction: rtl;
+}
+
+.notification-table-container-div {
+    font-family: FarhangFaNum-Regular;
+    direction: rtl;
+}
+
+.notification-table-head-cell {
+    text-align: center;
+    font-family: FarhangFaNum-DemiBold;
+    font-size: 15px;
+    color: black;
+    height: 40px;
+}
+
+.create-notif-main-info-div {
+    border: 1px solid #656565;
+    border-top: 0;
+    border-radius: 5px;
+}
+
+.create-notif-main-info-grid {
+    padding-right: 35px;
+    padding-top: 10px
+}
+
+.notif-body-text {
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 11px;
+    margin-right: 35px;
+    font-family: FarhangFaNum-Regular;
+}
+
+.accordion-card {
+    border: 1px solid #a8a8a8;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: FarhangFaNum-Regular;
+}
+
+.create-notification-div {
+    /*z-index: 1;*/
+    /*transition: all 1s;*/
+    /*opacity: 1;*/
+}
+
+.create-notif-every-section {
+    margin-bottom: 20px;
+}
+
+.create-notif-error-msg {
+    color: red;
+    font-family: FarhangFaNum-Medium;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.create-notif-submit-btn {
+    font-family: FarhangFaNum-Regular;
+    width: 30px;
+    height: 27px;
+    color: #4b815e;
+}
+
+.create-notif-submit-btn:hover {
+    color: #5ea375;
+}
+
+.terminal-number-hint {
+    margin-top: -10px;
+    display: flex;
+    justify-content: right;
+    margin-right: 90px;
+    font-size: 14px;
+    font-family: FarhangFaNum-Thin
+}
+
+.service-type-err-msg {
+    font-family: FarhangFaNum-Medium;
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+    font-size: 14px;
+    margin-top: -7px;
+    color: red;
+    width: 150px
+}
+
+.app-type-err-msg {
+    font-family: FarhangFaNum-Medium;
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+    margin-top: -7px;
+    color: red;
+    width: 176px;
+}
+
+.notif-title-err-msg {
+    margin-top: -2px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: red;
+    font-family: FarhangFaNum-Medium
+}
+
+.notif-text-err-msg {
+    font-family: FarhangFaNum-Medium;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    font-size: 14px;
+    color: red;
+    width: 200px;
+    margin-top: 13px;
+}
+
+.date-range-err-msg {
+    font-family: FarhangFaNum-Medium;
+    color: red;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.time-range-err-msg {
+    font-family: FarhangFaNum-Medium;
+    color: red;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.terminal-number-err-msg {
+    font-family: FarhangFaNum-Medium;
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+    font-size: 14px;
+    margin-top: -7px;
+    color: red;
+    width: 150px;
+}
+
+.national-code-err-msg {
+    font-family: FarhangFaNum-Medium;
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+    font-size: 14px;
+    margin-top: -7px;
+    color: red;
+    width: 150px
+}
+
+.notif-text-textarea {
+    font-family: FarhangFaNum-Regular;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 15px;
+    direction: rtl;
+    width: 945px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    resize: none;
+}
+
+.notif-text-textarea:focus {
+    outline: none !important;
+    border: 2px solid #0076a5 !important;
+}
+
+
+.notif-title-textarea {
+    font-family: FarhangFaNum-Regular;
+    font-size: 16px;
+    border-radius: 5px;
+    direction: rtl;
+    width: 350px;
+    height: 35px;
+    padding-right: 10px;
+    padding-top: 6px;
+    margin-top: 8px;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.notif-title-textarea:focus {
+    outline: none !important;
+    border: 2px solid #0076a5 !important;
+}
+
+.notif-text-hint {
+    font-size: 14px;
+    margin-right: 15px;
+    font-family: FarhangFaNum-thin;
+    height: 20px;
+}
+
+.notif-title-hint {
+    font-size: 14px;
+    font-family: FarhangFaNum-thin;
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+    margin-right: 55px;
+}
+
+.dialog-box-text {
+    font-family: FarhangFaNum-Medium;
+    margin-top: 60px
+}
+
+.dialog-box-accept-btn {
+    font-family: FarhangFaNum-Regular;
+    background-color: #398247;
+    color: white;
+    line-height: 1.3;
+    min-width: 60px;
+}
+
+.dialog-box-accept-btn:hover {
+    font-family: FarhangFaNum-Regular;
+    background-color: #4eaf62;
+    color: white;
+}
+
+.dialog-box-decline-btn {
+    font-family: FarhangFaNum-Regular;
+    background-color: #7a7a7a;
+    color: white;
+    line-height: 1.3;
+    min-width: 60px;
+}
+
+.dialog-box-decline-btn:hover {
+    font-family: FarhangFaNum-Regular;
+    background-color: #8c8c8c;
+    color: white;
+}
+
+.dialog-box-check-icon {
+    color: #1c702dde;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.dialog-box-warning-icon {
+    color: rgb(190, 47, 47);
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+.send-percentage-grid {
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.send-percentage-number-div {
+    width: 15px;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.send-percentage-sign-div {
+    font-size: 12px;
+}
+
+.notif-list-refresh-icon {
+    font-size: 24px !important;
+    color: #767676;
+    margin-top: 3px;
+    margin-left: 8px
+}
+
+.notif-list-refresh-icon:hover {
+    color: #0076a5;
+}
+
+.table-edit-icon {
+    color: #4bac6d;
+    font-size: 21px !important;
+}
+
+.table-edit-icon:hover {
+    color: #016a28;
+}
+
+.table-cancel-icon {
+    color: #686868;
+    font-size: 21px !important;
+}
+
+.table-cancel-icon:hover {
+    color: #202020;
+}
+
+.table-delete-icon {
+    color: #e67170;
+    font-size: 21px !important;
+}
+
+.table-delete-icon:hover {
+    color: #c52d2c;
+}
+
+.accordion-grid {
+    display: flex;
+    justify-content: center;
+    margin-right: -22px;
+}
+
+.css-1yhpg23-MuiTableCell-root {
+    padding: 10px !important;
+}
+
+.css-y8ay40-MuiTableCell-root {
+    padding: 10px !important;
+}
+
+.search-bar-div {
+    z-index: 1;
+    transition: all .5s;
+    opacity: 1;
+}
+
+.search-bar-div-hidden {
+    opacity: 0
+}
+
+.filter-btn-for-search-bar-div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.filter-btn-for-search-bar {
+    font-family: FarhangFaNum-Regular;
+    background-color: #d2d9df;
+    color: black;
+    height: 30px;
+}
+
+.filter-btn-for-search-bar:hover {
+    background-color: #c4ccd8;
+    color: black;
+}
+
+.filter-btn-icon-for-search-bar {
+    color: #4b5055;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: -5px
+}
+
+.notification-table-head-cell {
+    padding: 0 !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+    padding: 3px !important;
+}
+
+/*new*/
+.item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.stickyHeader {
+    background-color: #d3dce3;
+    border: 1px solid #678995;
+    border-radius: 4px;
+}
+
+.is-sticky {
+    position: sticky;
+    top: 50px;
+    z-index: 999;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+/*.MuiTableHead-root .MuiTableRow-root .MuiTableCell-head{*/
+/*    resize: horizontal;*/
+/*    overflow-y: hidden;*/
+/*}*/
+/*.resizer{*/
+/*    display: inline-block;*/
+/*    background: blue;*/
+/*    width: 10px;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    transform: translateX(50%);*/
+/*    z-index: 1;*/
+/*    !* prevent scroll on touch devices *!*/
+/*    touch-action: none;*/
+/*}*/
+
+#orders {
+    max-height: 310px;
+}
+
+.options {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.option {
+    margin-top: 10px;
+}
+
+.option > span {
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+
+.option > .dx-widget {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dx-rtl .dx-scrollable .dx-scrollable-scrollbar.dx-scrollbar-vertical, .dx-rtl.dx-scrollable .dx-scrollable-scrollbar.dx-scrollbar-vertical {
+    right: 0 !important;
+    left: auto;
+}
+
+.dx-menu-item-text {
+    font-family: FarhangFaNum-Regular !important;
+}
+
+.dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row) > td:not(.dx-focused) {
+    background-color: #e2e5e8 !important;
+}
+
+.dx-datagrid-rowsview .dx-row > td, .dx-datagrid-rowsview .dx-row > tr > td {
+    background-color: #e2e5e8;
+}
+
+.dx-datagrid .dx-row-alt > td, .dx-datagrid .dx-row-alt > tr > td {
+    background-color: #ffffff;
+}
+
+.dx-datagrid-borders > .dx-datagrid-headers {
+    color: #353535;
+    font-family: 'FarhangFaNum-DemiBold';
+    font-size: 14px;
+}
+
+.dx-datagrid.dx-context-menu .dx-menu-items-container .dx-icon-context-menu-sort-asc {
+    visibility: hidden !important;
+}
+
+.dx-datagrid.dx-context-menu .dx-menu-items-container .dx-icon-context-menu-sort-desc {
+    visibility: hidden !important;
+}

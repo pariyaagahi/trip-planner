@@ -1,13 +1,72 @@
 body {
+  position: relative;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'FarhangFaNum-Black';
+  font-family: 'FarhangFaNum-Bold';
+  font-family: 'FarhangFaNum-DemiBold';
+  font-family: 'FarhangFaNum-ExtraBold';
+  font-family: 'FarhangFaNum-ExtraLight';
+  font-family: 'FarhangFaNum-Light';
+  font-family: 'FarhangFaNum-Medium';
+  font-family: 'FarhangFaNum-Regular';
+  font-family: 'FarhangFaNum-Thin';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace, FarhangFaNum-Regular, FarhangFaNum-Black, FarhangFaNum-Bold,
+  FarhangFaNum-DemiBold, FarhangFaNum-ExtraBold, FarhangFaNum-Light,
+  FarhangFaNum-Medium, FarhangFaNum-Thin;
+}
+
+@font-face {
+  font-family: 'FarhangFaNum-Black';
+  src: local('FarhangFaNum-Black'),
+  url(./Assets/Font/FarhangFaNum-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FarhangFaNum-Bold';
+  src: local('FarhangFaNum-Bold'),
+  url(./Assets/Font/FarhangFaNum-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'FarhangFaNum-DemiBold';
+  src: local('FarhangFaNum-DemiBold'),
+  url(./Assets/Font/FarhangFaNum-DemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FarhangFaNum-ExtraBold';
+  src: local('FarhangFaNum-ExtraBold'),
+  url(./Assets/Font/FarhangFaNum-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FarhangFaNum-ExtraLight';
+  src: local('FarhangFaNum-ExtraLight'),
+  url(./Assets/Font/FarhangFaNum-ExtraLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FarhangFaNum-Light';
+  src: local('FarhangFaNum-Light'),
+  url(./Assets/Font/FarhangFaNum-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FarhangFaNum-Medium';
+  src: local('FarhangFaNum-Medium'),
+  url(./Assets/Font/FarhangFaNum-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FarhangFaNum-Regular';
+  src: local('FarhangFaNum-Regular'),
+  url(./Assets/Font/FarhangFaNum-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FarhangFaNum-Thin';
+  src: local('FarhangFaNum-Thin'),
+  url(./Assets/Font/FarhangFaNum-Thin.ttf) format('truetype');
 }

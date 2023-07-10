@@ -1,0 +1,38 @@
+.appbar {
+    position: fixed;
+}
+
+.toolbar {
+    min-height: 10px;
+    height: 40px;
+    background-color: #1d92cf;
+}
+
+.account-icon {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.-icon {
+    margin-left: 7px;
+    font-size: small;
+}
+
+.menu-icon-button {
+    fill: white;
+}
+
+.menu-icon {
+    color: white !important;
+}
+
+.navbar-middle-div {
+    flex-grow: 1;
+}
+.navbar-account-menu-items{
+    font-family: 'FarhangFaNum-Medium';
+    font-size: 15px;
+}
+.css-1ih8abr-MuiPaper-root-MuiAppBar-root{
+    padding-right: 0!important;
+}
