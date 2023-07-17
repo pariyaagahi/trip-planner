@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401cdb7c-3d1d-4181-980c-5656f30911c7" name="Changes" comment="update api fields corrected" />
+    <list default="true" id="401cdb7c-3d1d-4181-980c-5656f30911c7" name="Changes" comment="update api fields corrected">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-planner/prg_notification/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-planner/prg_notification/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-planner/prg_notification/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-planner/prg_notification/package.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/prg_notification" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -41,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trip-planner" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -303,6 +310,7 @@
       <workItem from="1688986459733" duration="663000" />
       <workItem from="1688988906670" duration="726000" />
       <workItem from="1688998071397" duration="51000" />
+      <workItem from="1689138889926" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1687259915683</created>
@@ -311,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687259915683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update api fields corrected">
+      <created>1689139047388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689139047388</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +345,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="update api fields corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="update api fields corrected" />
   </component>
 </project>
