@@ -1,0 +1,54 @@
+.toolbar {
+    min-height: 10px;
+    height: 40px;
+    background-color: #74909a
+}
+
+.appbar {
+    position: fixed;
+}
+
+.navbar-middle-div {
+    flex-grow: 1;
+}
+
+.menu-icon-button {
+    font-size: 23px;
+    fill: #edc8a3
+}
+
+.drawer {
+    direction: rtl;
+    flex-shrink: 0;
+}
+.drawer-item{
+    background-color: #74909a !important;
+}
+
+.drawer-item:hover {
+    background-color: #edc8a3 !important;
+}
+
+.drawer-item-icon {
+    color: #000000;
+}
+
+.drawer-item-text {
+    text-align: right;
+    font-size: 14px;
+    font-family: FarhangFaNum-DemiBold;
+    color: #090909;
+}
+
+
+.drawer-list-item-divider {
+    background-color: #bdbdbd;
+}
+
+.css-h4y409-MuiList-root {
+    padding-top: 0 !important;
+}
+
+/*.css-fiov70 {*/
+/*    min-height: 40px !important;*/
+/*}*/

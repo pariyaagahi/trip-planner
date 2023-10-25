@@ -1,0 +1,46 @@
+.add-event-layout {
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0.73)), url("/src/Assets/Image/trip.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+}
+
+.add-event-items {
+    display: flex;
+    justify-content: center;
+}
+
+.upload-file-label {
+    font-family: FarhangFaNum-Thin;
+    margin-top: 4px;
+    margin-left: -15px;
+}
+
+.upload-event-image-container {
+    height: 200px;
+}
+
+.upload-event-image-div {
+    margin-top: 15px;
+    display: flex;
+    justify-content: right;
+    width: 350px;
+    height: 201px;
+    border: 1px solid #405763;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.share-event-text {
+    font-family: FarhangFaNum-Thin;
+    font-size: 15px;
+    margin-top: 15px
+}
+
+.share-event-check-box {
+    color: #738f99 !important;
+}
