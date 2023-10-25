@@ -3,7 +3,7 @@ import React from 'react';
 const MainLayout = () => {
     return (
         <div>
-         main layout 1
+         main layout
         </div>
     );
 };
